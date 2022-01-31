@@ -1,0 +1,90 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <title>Login redxam email</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik:wght@700&display=swap'
+      rel='stylesheet'
+    />
+  </head>
+
+  <body>
+    <table style='margin: 2rem auto;'>
+      <tbody>
+        <tr style='text-align: center;'>
+          <td>
+            <h1
+              style='text-align: center; font-family: "Rubik", sans-serif; font-weight: bold; font-size: 60px; line-height: 120%; text-align: center; margin: 0;
+letter-spacing: -0.05em; color: #2A3037;'
+            >
+              Welcome to
+              <br />
+              redxam 🎉
+            </h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p
+              style='font-family: "DM Sans", sans-serif; font-size: 17px; line-height: 180%; text-align: center; color: #000000; opacity: 0.8;'
+            >
+              Access the dashboard by clicking below
+            </p>
+          </td>
+        </tr>
+        <tr style='text-align: center;'>
+          <td style='text-align: center;'>
+            <br />
+            <a
+              href='{{loginURL}}'
+              style='padding: 20px 62px; background: #ACE96B; border-radius: 30px; text-decoration: none; color: #2A3037; font-family: "Rubik", sans-serif;'
+            >Login to dashboard</a>
+          </td>
+        </tr>
+        <tr>
+          <br />
+          <br />
+        </tr>
+        <tr style='text-align: center;'>
+          <span
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            {{randomText}}
+          </span>
+          <span
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            •
+          </span>
+          <a
+            href='https://redxam.com'
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            redxam.com
+          </a>
+        </tr>
+        <tr style='text-align: center;'>
+          <a href='https://www.linkedin.com/company/redxam'><img
+              src='cid:linkedin@login'
+            /></a>
+          <a href='https://twitter.com/redxamapp'><img src='cid:twitter@login' /></a>
+          <a href='https://www.facebook.com/redxamenglish'><img
+              src='cid:facebook@login'
+            /></a>
+          <a href='https://t.me/redxam'><img src='cid:telegram@login' /></a>
+          <a href='https://dsc.gg/redxam'><img src='cid:discord@login' /></a>
+        </tr>
+      </tbody>
+    </table>
+
+    {{! <div>
+      <a href=''>Privacy policy</a>
+      <a href=''>Terms of Service</a>
+      <a href=''>+44 9010 394 1713</a>
+      <a href=''>hello@redxam.com</a>
+    </div> }}
+  </body>
+</html>

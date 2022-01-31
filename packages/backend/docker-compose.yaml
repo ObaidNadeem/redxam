@@ -1,0 +1,9 @@
+version: '3'
+services:
+  redxam-api:
+    image: redxam-api:latest
+    container_name: 'redxam-api'
+    ports:
+      - '5005:5005'
+    env_file:
+      - ./.env

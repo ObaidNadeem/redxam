@@ -1,0 +1,121 @@
+{
+  "token": {
+    "price": 0.99976347939846,
+    "name": "DAI"
+  },
+  "rates": {
+    "Maker": {
+      "lend": {
+        "rate": "0.010006849657786733",
+        "monthlyAmount": "0.08"
+      },
+      "borrow": {
+        "rate": "3.93072503050533877524",
+        "monthlyAmount": "32.75"
+      },
+      "term": "1 block",
+      "name": "Maker"
+    },
+    "Compound": {
+      "borrow": {
+        "rate": 4.050336996604553,
+        "monthlyAmount": "33.74"
+      },
+      "lend": {
+        "rate": 2.716209007411141,
+        "monthlyAmount": "22.63"
+      },
+      "supply": 3855374900.475694,
+      "borrow_stable": null,
+      "supply_stable": null,
+      "term": "1 block",
+      "name": "Compound"
+    },
+    "dYdX": {
+      "lend": {
+        "rate": 10.498701767812205,
+        "monthlyAmount": "87.47"
+      },
+      "borrow": {
+        "rate": 15.1175973858516,
+        "monthlyAmount": "125.95"
+      },
+      "term": "1 block",
+      "name": "dYdX"
+    },
+    "C.R.E.A.M. Finance": {
+      "borrow": {
+        "rate": 22.552870946447644,
+        "monthlyAmount": "187.90"
+      },
+      "lend": {
+        "rate": 13.518513642734153,
+        "monthlyAmount": "112.63"
+      },
+      "supply": 2497012.3919320996,
+      "borrow_stable": null,
+      "supply_stable": null,
+      "term": "1 block",
+      "name": "C.R.E.A.M. Finance"
+    },
+    "DeFiner": {
+      "borrow": {
+        "rate": 3.5146189182016396,
+        "monthlyAmount": "29.28"
+      },
+      "lend": {
+        "rate": 2.8815431017123583,
+        "monthlyAmount": "24.01"
+      },
+      "supply": 25069.695171643332,
+      "borrow_stable": null,
+      "supply_stable": null,
+      "term": "1 block",
+      "name": "DeFiner"
+    },
+    "Aave V1": {
+      "borrow": {
+        "rate": 7.1437874647233945,
+        "monthlyAmount": "59.52"
+      },
+      "lend": {
+        "rate": 5.977051109682788,
+        "monthlyAmount": "49.80"
+      },
+      "supply": 38469391.23123361,
+      "borrow_stable": null,
+      "supply_stable": 30660089.878053207,
+      "term": "1 block",
+      "name": "Aave V1"
+    },
+    "Aave V2": {
+      "borrow": {
+        "rate": 13.296955708116307,
+        "monthlyAmount": "110.78"
+      },
+      "lend": {
+        "rate": 9.744981320579257,
+        "monthlyAmount": "81.19"
+      },
+      "supply": 626483994.2468725,
+      "borrow_stable": {
+        "rate": 21.296955708116307
+      },
+      "supply_stable": 56012225.398247145,
+      "term": "1 block",
+      "name": "Aave V2"
+    },
+    "Fulcrum": {
+      "lend": {
+        "rate": "0.009999500033346684",
+        "monthlyAmount": "0.08"
+      },
+      "borrow": {
+        "rate": "8",
+        "monthlyAmount": "66.65"
+      },
+      "term": "1 block",
+      "name": "Fulcrum"
+    }
+  }
+}

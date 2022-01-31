@@ -1,0 +1,362 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" type='text/css'>
+    <title>Newsletter</title><!-- Designed by https://github.com/kaytcat -->
+    <!-- Robot header image designed by Freepik.com -->
+    <style type="text/css">
+        /* Take care of image borders and formatting */
+
+        body {
+            font-family: 'Rubik';
+        }
+
+        img {
+            max-width: 600px;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a {
+            text-decoration: none;
+            border: 0;
+            outline: none;
+            color: #bbbbbb;
+        }
+
+        a img {
+            border: none;
+        }
+
+        /* General styling */
+
+        td {
+            text-align: center;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: none;
+            width: 100%;
+            height: 100%;
+            color: #37302d;
+            background: #ffffff;
+            font-size: 16px;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        .headline {
+            color: #ffffff;
+            font-size: 36px;
+        }
+
+        .force-full-width {
+            width: 100% !important;
+        }
+
+        .link {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #272B22;
+        }
+    </style>
+    <style media="only screen and (max-width: 480px)" type="text/css">
+        /* Mobile styles */
+        @media only screen and (max-width: 480px) {
+
+            table[class="w320"] {
+                width: 320px !important;
+            }
+
+        }
+    </style>
+    <style type="text/css"></style>
+</head>
+
+<body bgcolor="#ffffff" class="body"
+    style="padding:0; margin:0; display:block; background:#ffffff; -webkit-text-size-adjust:none">
+    <table align="center" cellpadding="0" cellspacing="0" height="100%" width="100%">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#ffffff" class="" valign="top" width="100%">
+                    <center class="">
+                        <table cellpadding="0" cellspacing="0" class="w320" style="margin: 70px auto;" width="600">
+                            <tbody>
+                                <tr>
+                                    <td align="center" class="" valign="top">
+                                        <div style="border: 1px solid rgba(39, 43, 34, 0.2); border-radius: 17px ">
+                                            {{!-- TOP --}}
+                                            <table bgcolor="#00B300" cellpadding="0" cellspacing="0" class=""
+                                                style="margin: 0 auto; background: url(cid:top@background); border-top-left-radius: 16px; border-top-right-radius: 16px;"
+                                                width="100%">
+                                                <tbody class="">
+                                                    <tr class="">
+                                                        <td style="text-align: left;">
+                                                            <p style="
+                                            font-size: 12px;
+                                            line-height: 14px;
+                                            color: #272B22;
+                                            margin-left: 16px;
+                                            ">March 24, 2021</p>
+                                                        </td>
+                                                        <td style="
+                                        text-align: right; 
+                                        padding-right: 16px;
+                                        ">
+                                                            <a class="link">View online</a>
+                                                            <span> | </span>
+                                                            <a class="link">Sign up</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="">
+                                                        <td colspan="2" class="headline" style="padding-top: 10px;">
+                                                            <center>
+                                                                <img src="cid:logo@top" alt="logo" width="138"
+                                                                    height="74">
+                                                            </center>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" style="">
+                                                            <center class="">
+                                                                <p style="
+                                                font-style: normal;
+                                                font-weight: 500;
+                                                font-size: 16px;
+                                                line-height: 19px;
+                                                color: #272B22;
+                                                margin: 0">Eget turpis pellentesque sit condimentum</p>
+                                                            </center>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="2" style="">
+                                                            <center class="">
+                                                                <p style="
+                                                font-size: 12px;
+                                                line-height: 14px;
+                                                color: #272B22;
+                                                ">Facilisis vel vulputate ipsum</p>
+                                                            </center>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                            {{!-- Fin TOP --}}
+                                            <div style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px">
+                                                <h2 style="
+                                        text-align: left;
+                                        font-weight: 500;
+                                        font-size: 18px;
+                                        line-height: 21px;
+                                        color: #272B22;
+                                        ">Lorem ipsum</h2>
+
+                                                <p style="
+                                        font-weight: normal;
+                                        font-size: 14px;
+                                        line-height: 26px;
+                                        color: #272B22;
+                                        text-align: left;
+                                        ">Tincidunt ornare volutpat cursus eu quam dui ultricies blandit aliquet
+                                                    faucibus viverra eget tempor morbi pharetra purus cras sed vel
+                                                    pellentesque
+                                                    dictum cursus donec accumsan.</p>
+
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <p
+                                                                    style="width: 30px; height: 30px; margin: 0; display: table-cell; vertical-align: middle; background: url(cid:elipse@top); color: white">
+                                                                    1
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p
+                                                                    style="text-align: left; margin-top:10px; margin-bottom: 10px; margin-left: 20px; color: #272B22; opacity: 0.75;">
+                                                                    Gravida potenti eget cum consectetur blandit enim,
+                                                                    dictum fermentum tempor</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="margin-top: 10px">
+                                                            <td>
+                                                                <p
+                                                                    style="width: 30px; height: 30px; margin: 0; display: table-cell; vertical-align: middle; background: url(cid:elipse@top); color: white">
+                                                                    2
+                                                                </p>
+                                                            </td>
+                                                            <td>
+                                                                <p
+                                                                    style="text-align: left; margin-top:10px; margin-bottom: 10px; margin-left: 20px; color: #272B22; opacity: 0.75;">
+                                                                    Risus pretium varius varius massa egestas feugiat
+                                                                    viverra integer egestas</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        {{!-- Markerts --}}
+                                        <div
+                                            style="margin-top: 20px; border: 1px solid rgba(39, 43, 34, 0.2); border-radius: 17px;">
+                                            <div
+                                                style="background: #272B22; border-top-left-radius: 17px; border-top-right-radius: 17px; height: 37px; display: table-cell; vertical-align: middle; width: 1%;">
+                                                <p
+                                                    style="margin-left: 20px; margin-top: 0; margin-bottom: 0; text-align: left; color: white">
+                                                    MARKETS</p>
+                                            </div>
+                                            <div style="padding: 20px">
+                                                <table style="width: 100%;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="text-align: left;">
+                                                                <img src="cid:green@top" alt="" srcset="">
+                                                            </td>
+                                                            <td>
+                                                                <p style="
+                                                                text-align: left;
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                color: #272B22;
+                                                                ">Opening price</p>
+                                                            </td>
+                                                            <td>
+                                                                <h3 style="
+                                                                font-weight: 500;
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                color: #272B22;
+                                                                "></h3>1232
+                                                            </td>
+                                                            <td>
+                                                                <h3 style="
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                text-align: right;
+                                                                color: #38B000;
+                                                                ">+12%</h3>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="text-align: left;">
+                                                                <img src="cid:red@top" alt="" srcset="">
+                                                            </td>
+                                                            <td>
+                                                                <p style="
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                color: #272B22;
+                                                                text-align: left;
+                                                                ">Previous closing price</p>
+                                                            </td>
+                                                            <td>
+                                                                <h3 style="
+                                                                font-weight: 500;
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                color: #272B22;
+                                                                "></h3>1232
+                                                            </td>
+                                                            <td>
+                                                                <h3 style="
+                                                                font-size: 14px;
+                                                                line-height: 17px;
+                                                                text-align: right;
+                                                                color: #EB5757;
+                                                                font-weight: 500;
+                                                                ">-12%</h3>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p style="
+                                            font-size: 12px;
+                                            line-height: 20px;
+                                            color: #272B22;
+                                            text-align: left;
+                                            ">* Tincidunt ornare volutpat. <a style="color: #38B000;">Cursus eu
+                                                        quam:</a></p>
+
+                                                <table style="width: 100%;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img  style="margin-left: 20px; margin-right: 20px;" src="cid:elipse-list@top" alt="" srcset="">
+                                                            </td>
+                                                            <td>
+                                                                <p style="text-align: left;">
+                                                                    Eros. Purus viverra faucibus libero malesuada
+                                                                    porttitor fusce nec malesuada fusce viverra sem
+                                                                    elementum consectetur
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img style="margin-left: 20px; margin-right: 20px;" src="cid:elipse-list@top" alt="" srcset="">
+                                                            </td>
+                                                            <td>
+                                                                <p style="text-align: left;">
+                                                                    Vitae. Purus pellentesque mauris, purus, ullamcorper
+                                                                    enim, consequat risus egestas cras convallis purus
+                                                                    facilisis nulla at purus viverra
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <table style="width: 100%;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="text-align: left;color: #272B22; opacity: 0.5;">
+                                                                <p>Malesuada nibh ornare magna pretium</p>
+                                                            </td>
+                                                            <td style="text-align: right;">
+                                                                <img src="cid:facebook@top" alt="" srcset="">
+                                                                <img src="cid:Twitter@top" alt="" srcset="">
+                                                                <img src="cid:Instagram@top" alt="" srcset="">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+
+                                        </div>
+
+
+                                        {{!-- Fin Markerts --}}
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </center>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

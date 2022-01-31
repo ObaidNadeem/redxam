@@ -1,0 +1,105 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <title>Login redxam email</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=DM+Sans&display=swap'
+      rel='stylesheet'
+    />
+  </head>
+  <body>
+
+    <div class='container'>
+      <h1
+        style='text-align: center; font-family: Rubik; font-weight: bold; font-size: 60px; line-height: 120%; text-align: center;
+letter-spacing: -0.05em; color: #2A3037;'
+      >
+        Welcome to
+        <br />
+        redxam
+      </h1>
+      <p
+        style='font-family: DM Sans; font-size: 17px; line-height: 180%; text-align: center; color: #000000; opacity: 0.8;'
+      >
+        Thank you for signing up to Keep in touch with
+        <br />
+        Redxam to Login using the button below
+      </p>
+      <div style='display: flex; justify-content: center; align-items: center'>
+        <a
+          href='{{loginURL}}'
+          style='padding: 20px 62px; background: #ACE96B; border-radius: 30px;'
+        >Login to dashboard</a>
+      </div>
+      <br />
+      <br />
+      <img src='cid:mobileApp' alt='redxam Mobile App' />
+    </div>
+
+    <h2 class='text'>Why choose us</h2>
+    <div className='benefits'>
+      <div className='benefits_card'>
+        <div className='benefits_card_img'>
+          <img src='{depositImg}' alt='deposit' />
+        </div>
+        <div className='benefits_card_text'>
+          <h3>Deposit and Withdraw at Anytime</h3>
+          <p>
+            Designed to help you own your future. Tell us how wealthy you want to be at
+            retirement and we’ll build a personalized investment plan for you.
+          </p>
+        </div>
+      </div>
+
+      <div className='benefits_card'>
+        <div className='benefits_card_img'>
+          <img src='{clockImg}' alt='clock' />
+        </div>
+        <div className='benefits_card_text'>
+          <h3>No Transaction Fees</h3>
+          <p>
+            Get guidance in your investing journey and feel more confident in your
+            decisions. Talk to our experts anytime and dive deeper into your personal
+            finance.
+          </p>
+        </div>
+      </div>
+
+      <div className='benefits_card'>
+        <div className='benefits_card_img'>
+          <img src='{wealthImg}' alt='wealth' />
+        </div>
+        <div className='benefits_card_text'>
+          <h3>Wealth Management System</h3>
+          <p>
+            It's not just money, it's superior wealth management. We handle this so you can
+            focus on what you're best at.
+          </p>
+        </div>
+      </div>
+
+      <div className='benefits_card'>
+        <div className='benefits_card_img'>
+          <img src='{qualityImg}' alt='quality' />
+        </div>
+        <div className='benefits_card_text'>
+          <h3>Highest Quality Service</h3>
+          <p>
+            We spend a great deal of time to ensure the coins you get on redxam are among
+            the highest quality anywhere.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <a href=''>Privacy policy</a>
+      <a href=''>Terms of Service</a>
+      <a href=''>+44 9010 394 1713</a>
+      <a href=''>hello@redxam.com</a>
+    </div>
+  </body>
+</html>

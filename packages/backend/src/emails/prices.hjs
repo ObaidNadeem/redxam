@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #272b22;
+    }
+  </style>
+  <body style="font-family: 'Rubik', sans-serif">
+    <header
+      style="
+        background: linear-gradient(201.05deg, #9ef01a 27.8%, #38b000 159.82%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 560px;
+        height: 160px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 20px 30px 20px;
+        border-radius: 8px 8px 0 0;
+        margin-bottom: 20px;
+      "
+    >
+      <div
+        class="top"
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          font-weight: 400;
+          color: #272b22;
+          margin-bottom: 10px;
+        "
+      >
+        <div class="date">
+          <p>March 24, 2021</p>
+        </div>
+        <div class="top_buttons">
+          <a href="#">View Online</a>
+          <span style="margin: 0 10px">|</span>
+          <a href="#">Sign up</a>
+        </div>
+      </div>
+      <div class="logo">
+        <img
+          src="priceslogo.svg"
+          alt="Redxam Logo"
+          style="margin-bottom: 20px"
+        />
+      </div>
+      <h1 style="font-size: 16px; font-weight: 500; margin-bottom: 10px">
+        Eget turpis pellentesque sit condimentum
+      </h1>
+      <p style="font-size: 12px; font-weight: 4000">
+        Facilisis vel vulputate ipsum
+      </p>
+    </header>
+
+    <main style="width: 560px; padding: 0 20px; margin: 0 auto">
+      <h2 style="margin-bottom: 10px; font-size: 18px; font-weight: 500">
+        Lorem ipsum
+      </h2>
+      <p style="margin-bottom: 10px; font-size: 14px; font-weight: 400">
+        Tincidunt ornare volutpat cursus eu quam dui ultricies blandit aliquet
+        faucibus viverra eget tempor morbi pharetra purus cras sed vel
+        pellentesque dictum cursus donec accumsan.
+      </p>
+      <div style="display: flex; align-items: center; margin-bottom: 10px">
+        <div style="margin-right: 20px">
+          <p
+            style="
+              padding: 6px 12px;
+              background-color: #38b000;
+              color: #fff;
+              border-radius: 100%;
+              font-size: 14px;
+              font-weight: 500;
+            "
+          >
+            1
+          </p>
+        </div>
+        <div class="instruction">
+          <p style="opacity: 0.75; font-size: 12px; font-weight: 400">
+            Gravida potenti eget cum consectetur blandit enim, dictum fermentum
+            tempor
+          </p>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; margin-bottom: 40px">
+        <div style="margin-right: 20px">
+          <p
+            style="
+              padding: 6px 12px;
+              background-color: #38b000;
+              color: #fff;
+              border-radius: 100%;
+              font-size: 14px;
+              font-weight: 500;
+            "
+          >
+            2
+          </p>
+        </div>
+        <div class="instruction">
+          <p style="opacity: 0.75; font-size: 12px; font-weight: 400">
+            Risus pretium varius varius massa egestas feugiat viverra integer
+            egestas
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section style="width: 600px; margin: 0 auto">
+      <h2
+        style="
+          background-color: #272b22;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 10px 0 10px 20px;
+          border-radius: 8px 8px 0 0;
+          margin-bottom: 20px;
+          text-transform: uppercase;
+        "
+      >
+        Markets
+      </h2>
+      <div style="width: 560px; padding: 0 20px; margin-bottom: 20px">
+        <div style="display: flex; align-items: center; margin-bottom: 15px">
+          <img src="upArrow.svg" alt="Up Arrow" />
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #272b22;
+              margin: 0 261px 0 10px;
+            "
+          >
+            Opening Price
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 500;
+              color: #272b22;
+              margin-right: 112px;
+            "
+          >
+            1232
+          </p>
+          <p style="font-size: 14px; font-weight: 500; color: #38b000">+12%</p>
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 15px">
+          <img src="upArrow.svg" alt="Up Arrow" />
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #272b22;
+              margin: 0 261px 0 10px;
+            "
+          >
+            Opening Price
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 500;
+              color: #272b22;
+              margin-right: 93px;
+            "
+          >
+            3434
+          </p>
+          <p style="font-size: 14px; font-weight: 500; color: #38b000">
+            +0.45%
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 15px">
+          <img src="downArrow.svg" alt="Down Arrow" />
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #272b22;
+              margin: 0 209px 0 10px;
+            "
+          >
+            Previous closing price
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 500;
+              color: #272b22;
+              margin-right: 97px;
+            "
+          >
+            4.5%
+          </p>
+          <p style="font-size: 14px; font-weight: 500; color: #eb5757">
+            -10 bps
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 15px">
+          <img src="upArrow.svg" alt="Up Arrow" />
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #272b22;
+              margin: 0 261px 0 10px;
+            "
+          >
+            Opening price
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 500;
+              color: #272b22;
+              margin-right: 94px;
+            "
+          >
+            234
+          </p>
+          <p style="font-size: 14px; font-weight: 500; color: #38b000">
+            +2.456%
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center">
+          <img src="downArrow.svg" alt="Down Arrow" />
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 400;
+              color: #272b22;
+              margin: 0 209px 0 10px;
+            "
+          >
+            Previous closing price
+          </p>
+          <p
+            style="
+              font-size: 14px;
+              font-weight: 500;
+              color: #272b22;
+              margin-right: 92px;
+            "
+          >
+            233.34
+          </p>
+          <p style="font-size: 14px; font-weight: 500; color: #eb5757">-9.8%</p>
+        </div>
+      </div>
+      <div style="width: 560px; padding: 0 20px">
+        <p
+          style="
+            font-size: 12px;
+            font-weight: 400;
+            color: 272b22;
+            margin-bottom: 10px;
+          "
+        >
+          *Tincidunt ornare volutpat.
+          <span style="color: #38b000; text-decoration: underline"
+            >Cursus eu quam:</span
+          >
+        </p>
+        <div style="padding: 0 20px">
+          <ul style="list-style: none">
+            <li style="margin-bottom: 10px; display: flex; align-items: center">
+              <img
+                src="asterisk.svg"
+                alt="Asterisk"
+                style="margin-right: 20px"
+              />
+              <p
+                style="
+                  font-size: 14px;
+                  color: #272b22;
+                  font-weight: 400;
+                  line-height: 21px;
+                "
+              >
+                <span style="font-weight: 500">Eros.</span> Purus viverra
+                faucibus libero malesuada porttitor fusce
+                <span style="color: #38b000; text-decoration: underline"
+                  >nec malesuada</span
+                >
+                fusce viverra sem elementum consectetur
+              </p>
+            </li>
+            <li style="display: flex; align-items: center">
+              <img
+                src="asterisk.svg"
+                alt="Asterisk"
+                style="margin-right: 20px"
+              />
+              <p
+                style="
+                  font-size: 14px;
+                  color: #272b22;
+                  font-weight: 400;
+                  line-height: 21px;
+                "
+              >
+                <span style="font-weight: 500">Vitae.</span> Purus pellentesque
+                mauris, purus, ullamcorper enim, consequat risus egestas
+                <span style="color: #38b000; text-decoration: underline"
+                  >cras convallis</span
+                >
+                purus facilisis nulla at purus viverra
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

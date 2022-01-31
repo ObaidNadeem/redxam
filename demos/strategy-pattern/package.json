@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "ts-node src/list-tokens"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}

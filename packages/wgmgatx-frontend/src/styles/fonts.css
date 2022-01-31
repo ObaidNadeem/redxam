@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Futura Md BT";
+  src: local("Futura Bold Italic BT"), local("FuturaBT-BoldItalic"), url("../../public/fonts/FuturaBT-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Hv BT";
+  src: local("Futura Heavy Italic BT"), local("FuturaBT-HeavyItalic"), url("../../public/fonts/FuturaBT-HeavyItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: local("Futura Book Italic BT"), local("FuturaBT-BookItalic"), url("../../public/fonts/FuturaBT-BookItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura-Bold"), url("../../public/fonts/Futura-Bold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Hv BT";
+  src: local("Futura Heavy BT"), local("FuturaBT-Heavy"), url("../../public/fonts/FuturaBT-Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura BdCn BT";
+  src: local("Futura Bold Condensed BT"), local("FuturaBT-BoldCondensed"),
+    url("../../public/fonts/FuturaBT-BoldCondensed.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura XBlk BT";
+  src: local("Futura Extra Black BT"), local("FuturaBT-ExtraBlack"), url("../../public/fonts/FuturaBT-ExtraBlack.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: local("Futura Book BT"), local("FuturaBT-Book"), url("../../public/fonts/FuturaBT-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Lt BT";
+  src: local("Futura Light BT"), local("FuturaBT-Light"), url("../../public/fonts/FuturaBT-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura Bold"), local("Futura-Bold"), url("../../public/fonts/Futura-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura-Black Bold"), local("Futura-Black-Bold"), url("../../public/fonts/Futura-Black-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura Condensed Light"), local("Futura-CondensedLight"),
+    url("../../public/fonts/Futura-CondensedLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura XBlkCnIt BT";
+  src: local("Futura Extra Black Condensed Italic BT"), local("FuturaBT-ExtraBlackCondItalic"),
+    url("../../public/fonts/FuturaBT-ExtraBlackCondItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura MdCn BT";
+  src: local("Futura Medium Condensed BT"), local("FuturaBT-MediumCondensed"),
+    url("../../public/fonts/FuturaBT-MediumCondensed.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Md BT";
+  src: local("Futura Medium BT"), local("FuturaBT-Medium"), url("../../public/fonts/FuturaBT-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Md BT";
+  src: local("Futura Medium Italic BT"), local("FuturaBT-MediumItalic"),
+    url("../../public/fonts/FuturaBT-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura LtCn BT";
+  src: local("Futura Light Condensed BT"), local("FuturaBT-LightCondensed"),
+    url("../../public/fonts/FuturaBT-LightCondensed.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Lt BT";
+  src: local("Futura Light Italic BT"), local("FuturaBT-LightItalic"), url("../../public/fonts/FuturaBT-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura XBlk BT";
+  src: local("Futura Extra Black BT"), local("FuturaBT-ExtraBlack"), url("../../public/fonts/FuturaBT-ExtraBlack.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

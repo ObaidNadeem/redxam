@@ -1,0 +1,59 @@
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <title>Waitlist redxam email</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik:wght@700&display=swap'
+      rel='stylesheet'
+    />
+    <style>
+      .info-box{ text-align: center; font-family: "DM Sans", sans-serif; color: #000000;
+      opacity: 0.7; } .info-box h2 { font-size: 3rem; margin-bottom: 5px;} .info-box p
+      {font-size: 1.5rem;}
+    </style>
+  </head>
+
+  <body>
+    <div class='info-box'>
+      <h2>congratulations!</h2>
+      <p>Some has used your referral code and you have advanced in the waitlist</p>
+      <p>your new position is <b>{{newLevel}}</b></p>
+    </div>
+    <table style='margin: 2rem auto;'>
+      <tbody>
+        <tr style='text-align: center;'>
+          <span
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            {{randomText}}
+          </span>
+          <span
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            •
+          </span>
+          <a
+            href='https://redxam.com'
+            style='font-family: "DM Sans", sans-serif; font-size: 8px; line-height: 180%; text-align: center; color: #000000; opacity: 0.7;'
+          >
+            redxam.com
+          </a>
+        </tr>
+        <tr style='text-align: center;'>
+          <a href='https://www.linkedin.com/company/redxam'><img
+              src='cid:linkedin@waitlist'
+            /></a>
+          <a href='https://twitter.com/redxamapp'><img src='cid:twitter@waitlist' /></a>
+          <a href='https://www.facebook.com/redxamenglish'><img
+              src='cid:facebook@waitlist'
+            /></a>
+          <a href='https://t.me/redxam'><img src='cid:telegram@waitlist' /></a>
+          <a href='https://dsc.gg/redxam'><img src='cid:discord@waitlist' /></a>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

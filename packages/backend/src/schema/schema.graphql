@@ -1,0 +1,218 @@
+type SimpleWallet {
+  address: String
+  wif: String
+  txsCount: Int
+}
+type Deposits {
+  userId: String
+  type: String
+  amount: Float
+  index: Int
+  currency: String
+  timestamp: Float
+  processedByRedxam: Boolean
+  status: String
+  hash: String
+  address: String
+  bankIcon: String
+  bankName: String
+  bankType: String
+}
+type InternalDeposits {
+  userId: String
+  type: String
+  amount: Float
+  currency: String
+  timestamp: Float
+  hash: String
+  address: String
+}
+
+type InternalDepositsResponse {
+  internalDeposits: [InternalDeposits]
+  success: Boolean
+  message: String
+}
+
+type User {
+  _id: ID!
+  firstName: String
+  lastName: String
+  email: String!
+  phone: String
+  wallet: SimpleWallet
+  contribution: Float
+  level: Int
+  verification: Boolean!
+  token: String
+  pending_balance: Int
+  balance: Int
+  accountBalance: Int
+  accountStatus: String
+  hasPendingTxs: Boolean!
+  deposited: Float
+  withdrawn: Float
+  created_at: String
+  portfolio: String
+  referralCode: String
+}
+
+type BalanceRecords {
+  balance: Float
+  timestamp: Float
+}
+
+type Referrer {
+  _id: ID!
+  statuses: String
+  referrers: String
+}
+input NewUser {
+  firstName: String
+  lastName: String
+  email: String!
+  phone: String
+  birthPlace: String
+  title: String
+  address: String
+  nearestLandmark: String
+  state: String
+  marriedStatus: String
+  occupation: String
+  identityIDType: String
+  identityIDNumber: String
+  issuance: String
+  issuancePlace: String
+  issuanceDate: String
+  issuanceStatus: String
+  expiringDate: String
+  referralCode: String
+}
+input NewManualUser {
+  name: String!
+  email: String!
+  phone: String!
+}
+input LoginInput {
+  email: String
+  phone: String
+}
+input VerifyInput {
+  token: String
+  phone: String
+  code: String
+}
+input SendReferInput {
+  token: String
+  email: String
+}
+
+input newAdmin {
+  email: String!
+  password: String!
+  avatar: String!
+  firstName: String!
+  lastName: String!
+}
+
+type Response {
+  success: Boolean!
+  message: String!
+  token: String
+  level: Int
+}
+
+type VaultData {
+  prevBalance: Float
+  amount: Float
+  balance: Float
+  interestRate: Float
+  token: String
+  tokenBalance: Float
+}
+
+type VaultTokens {
+  aave: VaultData
+  harvest: VaultData
+  fulcrum: VaultData
+}
+
+type Vaults {
+  vaults: VaultTokens
+  type: String
+  totalContribution: Float
+}
+
+type adminToken {
+  token: String
+}
+
+type admin {
+  email: String
+  token: String
+}
+
+type home {
+  deposits: [Deposits]
+  balance: Float
+  percentChange: Float
+  dolarChange: Float
+}
+
+type FeatureCheck {
+  status: Boolean
+}
+
+type overview {
+  totalUsers: Float
+  invitedUsers: Float
+  acceptedUsers: Float
+  usersWithBalance: Float
+}
+
+input check {
+  code: String
+}
+
+type WaitlistLevel {
+  message: String
+  success: Boolean
+  referralCode: String
+  level: String
+}
+
+type WidgetUrl {
+  widgetUrl: String
+}
+
+type Query {
+  users: [User]
+  user: [User]
+  getWaitList: [Referrer]
+  userDeposits: [Deposits]
+  vaults: Vaults
+  balanceRecords: [BalanceRecords]
+  adminLogin: adminToken
+  admin: admin
+  home: home
+  featureCheck: FeatureCheck
+  startTwilioVerify: Response
+  checkTwilioVerify(arg: check): Response
+  overview: overview
+  waitlistLevel(waitlistToken: String): WaitlistLevel
+  internalDeposits: InternalDepositsResponse
+  mxWidgetConnect: WidgetUrl
+}
+
+type Mutation {
+  createUser(arg: NewUser): Response
+  updateToken(arg: LoginInput): Response
+  verifyToken(arg: VerifyInput): Response
+  sendReferral(arg: SendReferInput): Response
+  goUpQueue: Response
+  createWaitlist(arg: NewUser): Response
+  createManualUser(arg: NewManualUser): Response
+  createAdmin(arg: newAdmin): Response
+  changeRequest(arg: String): Response
+  changeAccountStatus(arg: String): Response
+}
